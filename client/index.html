@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style_youtube.css" />
+    <title>Popular Videos</title>
+  </head>
+
+  <body>
+    <main>
+      <!-- Header -->
+      <section class="py-5 text-center container">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Youtube Data API</h1>
+          <p class="lead text-muted">
+            Find the trending videos from India and get their details.
+          </p>
+        </div>
+      </section>
+
+      <!-- Main video cards shown dynamically-->
+      <div class="row video-list video-container" id="videoList"></div>
+
+      <!-- Loading Screen -->
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status" id="loading"></div>
+      </div>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        id="reloadButton"
+        onClick="reloadVideoList()"
+        style="margin: 0 auto 1em auto; display: block"
+        ;
+      >
+        Load More
+      </button>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

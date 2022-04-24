@@ -1,0 +1,26 @@
+.card-footer {
+  font-size: 0.75rem !important;
+}
+
+hr {
+  height: 0.5px !important;
+}
+
+.video-list,
+.video-details {
+  margin-top: 1rem !important;
+}
+
+.video-head {
+  margin-top: 3rem !important;
+}
+
+.card-col {
+  padding-top: 30px;
+}
+
+.spinner-border {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
