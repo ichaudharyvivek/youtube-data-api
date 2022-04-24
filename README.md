@@ -1,7 +1,7 @@
 # youtube-data-api
 > This Application enabels you to fetch trending videos from youtube and get the details such as video title thumbnail etc etc
 
-### API Routes (Accession from server folder)
+### API Routes (Access from server folder)
 - GET /api/v1/videos/ 
    - Fetch videos from the database
 - GET /api/v1/videos/:videoId 
