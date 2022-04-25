@@ -1,4 +1,4 @@
-const videosAPi = 'http://localhost:5000/api/v1/videos';
+const videosAPi = 'https://yda-app.herokuapp.com/api/v1/videos';
 const videosList = `${videosAPi}/`;
 const videoDetails = `${videosAPi}/`;
 const videosListUpdate = `${videosAPi}/videosListUpdate/`;
